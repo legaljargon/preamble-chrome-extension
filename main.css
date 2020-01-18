@@ -1,9 +1,121 @@
-h1 {
-color: black;
-text-align: center;
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
-h2 {
-color: black;
-text-align: center;
+div {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: gold;
+	margin-block-start: 0.1em;
+  margin-block-end: 0.3em;
+}
+h3 {
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+}
+h4 {
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+}
+h5 {
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+}
+hr {
+	margin-left: 3%;
+  margin-right: 3%;
+	margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+	border: 0px;
+	border-top: 1px solid lightsteelblue;
+}
+li {
+  text-align: left;
+}
+.hRule {
+  border-block-start: 1px solid lightsteelblue;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: -2%;
+}
+.preamble {
+  width: 70%;
+  margin-left: 15%;
+  /* border: 1px solid lightsteelblue; */
 }
 
+.flag-saffron {
+  color: #ff8000;
+}
+.flag-white {
+  /* color: #ffffff; */
+  color: ghostwhite;
+}
+.flag-green {
+  /* color: #009900; */
+  /* color: #7FFF00; */
+  /* color: lime; */
+   color: lime;
+}
+.flag-blue {
+  color: deepskyblue;
+}
+.frdSection {
+  color: honeydue;
+  display:flow-root;
+  padding:10px;
+  /* border: 1px solid green; */
+}
+.frdContainer {
+  /* border: 1px solid lightsteelblue;   */
+  display: flow-root;
+  padding: 15px;
+  width: 40%;
+}
+.frdContent {
+    padding:3px;
+}
+.frContainer {
+ float: left;
+}
+.fdContainer {
+ float: right;
+}
+.footer {
+  /* border: 1px solid gold; */
+  font-size: 12px;
+  left:3%;
+  max-height: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  table-layout: fixed;
+  width: 90%;
+}
+.footerLableSubsection {
+	padding:3px;
+}
+.footerListSubsection {
+	width:90%;
+	text-align: left;
+}
+.footer a {
+  /* color: #00FFFF; */
+  color: lawngreen;
+}
+.footer a:hover {
+  color: lawngreen;
+}
+ul#footerList {
+  display: inline;
+
+}
+ul#footerList li {
+  display: inline-block;
+	padding: 5px;
+	border-left: 1px solid dimgray;
+}

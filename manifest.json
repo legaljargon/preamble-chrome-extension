@@ -1,15 +1,20 @@
 {
 	"name": "Preamble",
-	"version": "1.0",
-	"description": "Preamble to Indian Constitution!",
-	"manifest_version": 2,
-	"chrome_url_overrides":{
-	  "newtab":"index.html"
+	"version": "1.1",
+	"description": "The Preamble to the Indian Constitution.",
+	"chrome_url_overrides": {
+		"newtab": "coi.html"
 	},
-	"icons":{
-	  "128":"icon.png"
+	"icons": {
+		"128": "images/icon.png"
 	},
-	"permissions":[
-	  "activeTab"
-	  ]
+	"browser_action": {
+		"default_icon": "images/icon.png"
+	},
+	"permissions": [ "activeTab" ],
+	"background": {
+		"scripts": [ "coi.js" ],
+		"persistent": false
+	},
+	"manifest_version": 2
 }

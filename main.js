@@ -70,6 +70,7 @@ function load() {
 	setTimeout(function() {
 		var idx = Number.parseInt((Math.random() * 100000) % fundamentalRights.length);
 		document.getElementById('frDiv').innerText = fundamentalRights[idx];
+		idx = Number.parseInt((Math.random() * 100000) % fundamentalDuties.length);
 		document.getElementById('fdDiv').innerText = fundamentalDuties[idx];
 	});
 }
